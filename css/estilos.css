@@ -1,0 +1,205 @@
+/* ==========================================================
+   BiblioExpress - Estilos básicos
+   ========================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f4f8;
+    color: #222;
+}
+
+/* ---------- Encabezado y pie ---------- */
+header {
+    background: #1f3a5f;
+    color: #fff;
+    padding: 16px 24px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header p {
+    margin: 4px 0 0;
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+main {
+    max-width: 900px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+footer {
+    text-align: center;
+    color: #778;
+    font-size: 0.8rem;
+    margin: 24px 0;
+}
+
+/* ---------- Tarjeta contenedora ---------- */
+.tarjeta {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+/* ---------- Tabla ---------- */
+.tabla-scroll {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #e3e6eb;
+}
+
+th {
+    background: #eef1f6;
+    font-size: 0.9rem;
+}
+
+tr:hover td {
+    background: #fafbfd;
+}
+
+.acciones {
+    white-space: nowrap;
+}
+
+.vacio {
+    text-align: center;
+    color: #667;
+    padding: 24px 0;
+}
+
+/* ---------- Botones ---------- */
+button {
+    font-family: inherit;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #fff;
+    background: #2d6cdf;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-chico {
+    padding: 5px 10px;
+    font-size: 0.82rem;
+}
+
+.btn-verde {
+    background: #2e9e5b;
+}
+
+.btn-rojo {
+    background: #d64545;
+}
+
+.btn-gris {
+    background: #7a8594;
+}
+
+.btn-amarillo {
+    background: #f0b429;
+    color: #222;
+}
+
+/* ---------- Mensajes ---------- */
+.mensaje {
+    padding: 12px 14px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.mensaje-ok {
+    background: #e3f6ea;
+    color: #1c6b3b;
+    border: 1px solid #b9e4c9;
+}
+
+.mensaje-error {
+    background: #fde8e8;
+    color: #a02525;
+    border: 1px solid #f3bcbc;
+}
+
+.mensaje-error ul {
+    margin: 6px 0 0 18px;
+    padding: 0;
+}
+
+/* ---------- Formularios ---------- */
+form label {
+    display: block;
+    margin: 14px 0 4px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid #c5ccd6;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input:focus {
+    outline: 2px solid #9bbcf5;
+    border-color: #2d6cdf;
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* ---------- Confirmación de borrado ---------- */
+.confirmar {
+    text-align: center;
+}
+
+.confirmar .botones {
+    justify-content: center;
+}
